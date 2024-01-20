@@ -1,4 +1,4 @@
 Flask
 joblib
 pandas
-sklearn
+scikit-learn
