@@ -22,7 +22,7 @@ def predict_priority_api():
         # Get issue from the POST request
         data = request.get_json(force=True)
         issue = data['issue']
-
+    
         # Get predicted priority
         predicted_priority = predict_priority(issue)
 
